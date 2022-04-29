@@ -216,7 +216,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ],
             ),
-            if (_counter == 0)
+            if (_timerCompleted)
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
